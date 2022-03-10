@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  font-family: "Roboto", "Asap", sans-serif;
+}
+select{
+  width: 50px;
+}select::-webkit-scrollbar{
+  width: 5px;
+  background-color: #fff;
+}select::-webkit-scrollbar-thumb{
+  background-color: rgb(209, 209, 209);
+  border-radius: 30px;
+}
+#base{
+  width: 30px;
+  text-align: center;
+  border: 0px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+table{
+  border-spacing: 0px;
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+  text-align: center;
+}
+td.ref{
+  width: 120px;
+  height: 50px;
+
+}
+td.img{
+  display: flex;
+  width: auto;
+}
+.select{
+  display: block;
+}
+.ceil.normal{
+  width: 220px;
+}
+.ceil{
+  height: 60px;
+}
+.special{
+  background-color: #cdcdcd;
+}
+p.input{
+  text-align: center;
+}
+table{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+@media (max-width: 600px) {
+  table{
+    position: sticky;
+    left: auto;
+    transform: translate(-0%);
+  }
+}
