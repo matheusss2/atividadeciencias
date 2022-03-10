@@ -75,7 +75,7 @@ table{
   margin-left: 20px;
 }
 .alert{
-  position: fixed;
+  position: absolute;
   top: 100%;
   transform: translateY(-200%);
 }
