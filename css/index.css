@@ -65,3 +65,12 @@ table{
     transform: translate(-0%);
   }
 }
+.run{
+  padding: 5px 15px;
+  border-radius: 40px;
+  border: 2px solid #646464;
+  background-color: rgb(41, 175, 41);
+  color: #ffffffff;
+  cursor: pointer;
+  margin-left: 20px;
+}
