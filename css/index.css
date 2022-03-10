@@ -74,8 +74,3 @@ table{
   cursor: pointer;
   margin-left: 20px;
 }
-.alert{
-  position: absolute;
-  top: 100vh;
-  transform: translateY(-200%);
-}
